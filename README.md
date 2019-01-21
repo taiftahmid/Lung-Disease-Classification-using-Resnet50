@@ -1,4 +1,4 @@
-# Lung-Disease-Classification-using-Resnet50
+# Lung Disease Classification using Resnet50
 
 This repository is a classification model for detecting lung diseases from chest X-ray images. The dataset used for this project is given in the following [link](https://www.kaggle.com/nih-chest-xrays/data/kernels) .  
 
