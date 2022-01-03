@@ -21,15 +21,16 @@ Epochs: 1
 
 # Results and Discussion: 
 
-The following graph is the Area-Under-the-curve (AUC). 
+The following graph is the Receiver operating characteristics curve (ROC). 
 
 ![alt text](https://github.com/taiftahmid/Lung-Disease-Classification-using-Resnet50/blob/master/roc_curve.png)
 
-From the graph it can be observed that the model can classify some diseases better than others. The accuracy can be further increased by using larger image sizes, increasing the number of layers, using hyperparameter tuning and training the model without using pre-trained weights through more number of epochs. 
+From the graph it can be observed that the model can classify some diseases better than others. The accuracy can be further increased by using larger image sizes, increasing the number of layers, using hyperparameter tuning and training the model without using pre-trained weights through more number of epochs. Due to the limitations of GPU, the size of images had to be shrunk down to 128 x 128, resulting in loss of information from the image data. 
 
 Some visualizations of the results: 
 
 ![alt text](https://github.com/taiftahmid/Lung-Disease-Classification-using-Resnet50/blob/master/results.png)
+
 
 This model is currently a work in progress. 
 
