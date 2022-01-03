@@ -32,8 +32,6 @@ Some visualizations of the results:
 ![alt text](https://github.com/taiftahmid/Lung-Disease-Classification-using-Resnet50/blob/master/results.png)
 
 
-This model is currently a work in progress. 
-
 
 
 
