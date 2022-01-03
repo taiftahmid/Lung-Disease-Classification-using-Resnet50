@@ -21,7 +21,7 @@ Epochs: 1
 
 # Results and Discussion: 
 
-The following graph is the Receiver operating characteristics curve (ROC). 
+The following graph is the Area under curve of Receiver operating characteristics (AUC-ROC). 
 
 ![alt text](https://github.com/taiftahmid/Lung-Disease-Classification-using-Resnet50/blob/master/roc_curve.png)
 
