@@ -4,7 +4,7 @@ This repository is a classification model for detecting lung diseases from chest
 
 Some sample images from the dataset: 
 
-![alt text](https://www.kaggleusercontent.com/kf/8342432/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..PmbtUmKyuOMyUcSX-1oVKA.fP0PCmi8Iew-0fahI6RH_t3R-gUmWpfgCDov9AuJbW3C7NrGPH0phufy2Wxjk8UvzgfvXdpnh4UNgcGENAut-UfaQi8_C6fDdwdr-sm4_2Xh2VxNGNvTiLrSyx5Qh1OIZbiS4ouiYBgCFZG3TBvGLchHx5pwLj3Iu24flpnIIr1RzTXH4WMakWKhahHZTz6p.yfeuDDIgBRdjrYGYjhnD5A/__results___files/__results___12_0.png)
+![alt text](https://github.com/taiftahmid/Lung-Disease-Classification-using-Resnet50/blob/master/lung_disease_detection_image_sample.png)
 
 Libraries used: Keras, pandas, matplotlib and sklearn. 
 
@@ -23,13 +23,13 @@ Epochs: 1
 
 The following graph is the Area-Under-the-curve (AUC). 
 
-![alt text](https://www.kaggleusercontent.com/kf/8342432/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..PmbtUmKyuOMyUcSX-1oVKA.fP0PCmi8Iew-0fahI6RH_t3R-gUmWpfgCDov9AuJbW3C7NrGPH0phufy2Wxjk8UvzgfvXdpnh4UNgcGENAut-UfaQi8_C6fDdwdr-sm4_2Xh2VxNGNvTiLrSyx5Qh1OIZbiS4ouiYBgCFZG3TBvGLchHx5pwLj3Iu24flpnIIr1RzTXH4WMakWKhahHZTz6p.yfeuDDIgBRdjrYGYjhnD5A/__results___files/__results___19_0.png)
+![alt text](https://github.com/taiftahmid/Lung-Disease-Classification-using-Resnet50/blob/master/roc_curve.png)
 
 From the graph it can be observed that the model can classify some diseases better than others. The accuracy can be further increased by using larger image sizes, increasing the number of layers, using hyperparameter tuning and training the model without using pre-trained weights through more number of epochs. 
 
 Some visualizations of the results: 
 
-![alt text](https://www.kaggleusercontent.com/kf/8342432/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..PmbtUmKyuOMyUcSX-1oVKA.fP0PCmi8Iew-0fahI6RH_t3R-gUmWpfgCDov9AuJbW3C7NrGPH0phufy2Wxjk8UvzgfvXdpnh4UNgcGENAut-UfaQi8_C6fDdwdr-sm4_2Xh2VxNGNvTiLrSyx5Qh1OIZbiS4ouiYBgCFZG3TBvGLchHx5pwLj3Iu24flpnIIr1RzTXH4WMakWKhahHZTz6p.yfeuDDIgBRdjrYGYjhnD5A/__results___files/__results___20_0.png)
+![alt text](https://github.com/taiftahmid/Lung-Disease-Classification-using-Resnet50/blob/master/results.png)
 
 This model is currently a work in progress. 
 
